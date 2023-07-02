@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+   
+}
+body{
+    background:url('logo.gif') no-repeat;
+    background-size:cover;
+}
+.nav{
+    overflow:hidden;
+    background:#fff;
+    margin-top:-5px;
+}
+.nav a{  
+    background-color:white;
+    float:left;
+    color:black;
+    text-align:center;
+    padding:20px 16px;
+    font-size:14px;
+    width:100px;
+    text-transform:uppercase;
+}
+.nav a:hover{
+    background:purple;
+    color:white;
+}
+.button{
+    margin-top:250px;
+    text-align:center;
+}
+.btn{
+    background-color:#1E90FF;
+    color:white;
+    width:160px;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.btn:hover{
+    background-color:black;
+    color:white;
+}

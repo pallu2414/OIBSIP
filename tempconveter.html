@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter celsius to Fahrenheit and viceversa</title>
+    <link rel="stylesheet" href="./styles1.css">
+  </head>
+  <body>
+    <body style="background-color: rgb(215, 240, 240);"></body>
+    <div class="row">
+        <div class="column1">
+        <img src="./temp.gif"  alt="converting temperature" width="50%">
+    </div>
+    <div class="column2">
+        <img src="./temp2.gif" width="50%" >
+    </div> 
+    </div>
+    
+    <div class="container">
+      <h1 style="text-align:center; color: blueviolet;">Temperature Converter</h1>
+      <div class="input-group">
+        <input type="text" id="temp-input" placeholder="Enter temperature" required>
+        <select id="selector">
+          <option value="Celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+      </div>
+      <button id="converter"  style="align-items: center; ">Convert</button>
+      <div id="result" style="text-align: center;  color:red ;font-style:bolt;">RESULT</div>
+    </div>
+    <script src="./tempscript.js"></script>
+  </body>
+</html>

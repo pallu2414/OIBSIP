@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:rgb(223, 195, 222);
+  }
+  section.intro{
+    background-image:url("portfolio1.webp");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    text-align:right;
+    margin:auto;
+  }
+  #image1{
+    display:block;
+    margin:auto;
+  }
+  #image2{
+    display:block;
+    margin:auto;
+  }
+ 
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    padding:20px;
+    border-radius:12px;
+    background-color:white;
+    color:black;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
